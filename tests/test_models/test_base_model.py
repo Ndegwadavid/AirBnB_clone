@@ -40,3 +40,4 @@ class TestBaseModel(unittest.TestCase):
     def test_type_updated_at(self):
         """tests if type of created time attribute is datetime"""
         self.assertIs(self.bm1.updated_at, datetime)
+        
