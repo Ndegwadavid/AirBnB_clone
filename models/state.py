@@ -1,6 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+"""This module creates a User class"""
 
-from models.base_models.py import BaseMOdel
+from models.base_model import BaseModel
+
 
 class State(BaseModel):
+    """Class for managing state objects"""
+
     name = ""

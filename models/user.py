@@ -1,9 +1,12 @@
-#!/usr/bin/env python3
-from models.base_models import Basemodel
+#!/usr/bin/python3
+"""This module creates a User class"""
+from models.base_model import BaseModel
 
-class User(Basemodel):
+
+class User(BaseModel):
+    """Class for managing user objects"""
 
     email = ""
     password = ""
-    frist_name = ""
+    first_name = ""
     last_name = ""
